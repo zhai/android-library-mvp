@@ -22,9 +22,7 @@ public class MainPresenter implements MainContract.Presenter {
         mMainView = checkNotNull(_view);
         mMainView.setPresenter(this);
 
-        init();
 
-        getNetworkData();
     }
 
 
@@ -44,14 +42,10 @@ public class MainPresenter implements MainContract.Presenter {
     @Override
     public void getNetworkData() {
 
-        ThreadsManager.post(new Runnable() {
-            @Override
-            public void run() {
+
                 mMainView.setTitle("正在加载网络，预计需要5秒钟");
-                SystemClock.sleep(5000);
-                finish();
-            }
-        });
+
+
 
 
     }
