@@ -1,6 +1,5 @@
 package com.zhaisoft.lib.mvp.util;
 
-import android.support.annotation.NonNull;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -17,7 +16,7 @@ public class DiskIOThreadExecutor implements Executor {
     }
 
     @Override
-    public void execute(@NonNull Runnable command) {
+    public void execute(Runnable command) {
         mDiskIO.execute(command);
     }
 }

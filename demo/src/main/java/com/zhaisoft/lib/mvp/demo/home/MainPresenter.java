@@ -3,6 +3,7 @@ package com.zhaisoft.lib.mvp.demo.home;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 
+import com.zhaisoft.lib.mvp.demo.BuildConfig;
 import com.zhaisoft.lib.mvp.util.ThreadsManager;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -53,5 +54,7 @@ public class MainPresenter implements MainContract.Presenter {
     @Override
     public void finish() {
         mMainView.setTitle("finish");
+
+        mMainView.setTitle(BuildConfig.VERSION_NAME);
     }
 }

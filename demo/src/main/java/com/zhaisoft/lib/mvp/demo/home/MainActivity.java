@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.zhaisoft.lib.mvp.demo.R;
 import com.zhaisoft.lib.mvp.util.ThreadsManager;
 
- import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -49,11 +49,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
             public void run() {
                 mPresenter.finish();
             }
-        },5000);
-
-
-
-
+        }, 5000);
 
 
     }
