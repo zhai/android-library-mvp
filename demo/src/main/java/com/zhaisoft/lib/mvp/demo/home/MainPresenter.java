@@ -1,7 +1,8 @@
 package com.zhaisoft.lib.mvp.demo.home;
 
 import android.os.SystemClock;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.zhaisoft.lib.mvp.demo.BuildConfig;
 import com.zhaisoft.lib.mvp.util.ThreadsManager;
@@ -44,9 +45,7 @@ public class MainPresenter implements MainContract.Presenter {
     public void getNetworkData() {
 
 
-                mMainView.setTitle("正在加载网络，预计需要5秒钟");
-
-
+        mMainView.setTitle("正在加载网络，预计需要5秒钟");
 
 
     }
