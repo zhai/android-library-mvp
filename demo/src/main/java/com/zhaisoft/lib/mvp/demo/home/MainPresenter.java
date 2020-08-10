@@ -1,13 +1,14 @@
 package com.zhaisoft.lib.mvp.demo.home;
 
+import android.annotation.SuppressLint;
 import android.os.SystemClock;
 
 import androidx.annotation.NonNull;
 
 import com.zhaisoft.lib.mvp.demo.BuildConfig;
-import com.zhaisoft.lib.mvp.util.ThreadsManager;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import static androidx.core.util.Preconditions.checkNotNull;
+
 
 /**
  * @author zhai
@@ -19,6 +20,7 @@ public class MainPresenter implements MainContract.Presenter {
     private final MainContract.View mMainView;
 
 
+    @SuppressLint("RestrictedApi")
     public MainPresenter(
             @NonNull MainContract.View _view) {
         mMainView = checkNotNull(_view);

@@ -31,9 +31,8 @@ import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * Created by wanglei on 2016/11/28.
+ *
  */
-
 public class Codec {
     public static class MD5 {
 

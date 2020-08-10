@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-library-mvp.iml" filepath="$PROJECT_DIR$/android-library-mvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/android-library-mvp-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/android-library-mvp-demo.iml" group="android-library-mvp/demo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib.mvp/com.zhaisoft.lib.mvp-lib.mvp.iml" filepath="$PROJECT_DIR$/.idea/modules/lib.mvp/com.zhaisoft.lib.mvp-lib.mvp.iml" group="android-library-mvp/lib.mvp" />
+      <module fileurl="file://$PROJECT_DIR$/lib.mvp/android-library-mvp-lib.mvp.iml" filepath="$PROJECT_DIR$/lib.mvp/android-library-mvp-lib.mvp.iml" group="android-library-mvp/lib.mvp" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/git-android-library-mvp.iml" filepath="$PROJECT_DIR$/.idea/modules/git-android-library-mvp.iml" group="android-library-mvp" />
       <module fileurl="file://$PROJECT_DIR$/lib.mvp/lib.mvp.iml" filepath="$PROJECT_DIR$/lib.mvp/lib.mvp.iml" />
